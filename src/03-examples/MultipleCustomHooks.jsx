@@ -9,7 +9,7 @@ export const MultipleCustomHooks = () => {
   );
 
   // console.log(data, isLoading, hasError);
-  const { name, species, status } = !!data && data;
+  const { name, species, status } = !!data && data[0];
 
   return (
     <>

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-
+import 'whatwg-fetch' // npm install whatwg-fetch
+ 
 export const useFetch = (url) => {
   const [state, setState] = useState({
     data: null,

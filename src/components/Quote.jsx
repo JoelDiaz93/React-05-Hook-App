@@ -1,6 +1,6 @@
 import { useLayoutEffect, useRef, useState } from "react";
 
-export const Quote = ({ species, status, name }) => {
+export const Quote = ({ name, species, status }) => {
   const pRef = useRef();
   const [boxSize, setBoxSize] = useState({ width: 0, height: 0 });
 
